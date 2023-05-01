@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-primary scroll-smooth;
+  }
+
+  body {
+    @apply text-dark overflow-x-hidden;
+  }
+
+  .container{
+    @apply !w-full !px-[.75rem] mx-auto 2xl:!max-w-[1420px] xl:!max-w-[1200px] lg:!max-w-[992px] md:!max-w-[720px] sm:!max-w-[576px]
+  }
+}
